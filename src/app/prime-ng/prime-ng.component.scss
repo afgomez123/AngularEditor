@@ -1,0 +1,44 @@
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+
+  ::ng-deep {
+
+    .ql-align-right {
+      text-align: right;
+    }
+
+    .ql-align-justify {
+      text-align: justify;
+    }
+
+    .ql-align-center {
+      text-align: center;
+    }
+
+    .ql-align-left {
+      text-align: left;
+    }
+
+    .p-editor-container .p-editor-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options .ql-picker-item {
+      width: auto;
+      height: auto;
+    }
+  }
+
+  p-editor {
+    width: 70%;
+  }
+
+  button {
+    width: 200px;
+    height: 50px;
+  }
+
+  .section {
+    width: 70%;
+    border: solid 1px;
+  }
+}

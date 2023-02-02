@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  ::ng-deep {
+
+    .ql-align-right {
+      text-align: right;
+    }
+
+    .ql-align-justify{
+      text-align: justify;
+    }
+
+    .ql-align-center {
+      text-align: center;
+    }
+
+    .ql-align-left {
+      text-align: left;
+    }
+  }
+
+  .section {
+    width: 50%;
+    border: solid 1px;
+  }
+}

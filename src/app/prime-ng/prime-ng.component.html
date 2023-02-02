@@ -1,0 +1,7 @@
+<div class="content">
+  <p-editor [(ngModel)]="text" [style]="{ height: '320px' }"></p-editor>
+  <br />
+  <button type="button" (click)="generate()">Generate text</button>
+  <br />
+  <div class="section" [innerHtml]="textinner |safeHtmlPipe"></div>
+</div>
